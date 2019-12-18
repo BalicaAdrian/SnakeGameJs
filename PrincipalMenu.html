@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GameMenu</title>
+
+    <link rel="stylesheet" type="text/css" href="PrincipalMenustyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+
+<p id="player"></p>
+<p class="subTitlu">Choose your monster's colors:</p>
+
+
+<div>
+    <input type="color" id="body" name="body"
+           value="#f6b73c">
+    <label for="body">Body</label>
+</div>
+
+<p class="subTitlu">Choose map Color:</p>
+<div>
+<input type="color" id="map" name="map"
+       value="#e66465">
+<label for="map">Map</label>
+</div>
+<br>
+<div class="form-group col-md-4" id="level">
+                <label for="inputLevel" class ="subTitlu">Level<br></label>
+                <select id="inputLevel" class="form-control">
+                    <option selected value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+</div>
+<br><br>
+<button id="StartGame" class="btn btn-primary"> Start Game!</button>
+<button class="btn btn-primary" id="CelMAiBunScor">HighScore</button>
+<button id="Back" class="btn btn-primary"> Back</button>
+<script src="PrincipalMenuPage.js"></script>
+
+
+
+</body>
+</html>

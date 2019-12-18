@@ -1,0 +1,16 @@
+body{
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
+
+.subTitlu{
+    font-size: 25px;
+    color: #fca903;
+    font-family: 'Patua One', cursive;
+}
+#player{
+    font-size: 60px;
+    color: #fca903;
+    font-family: 'Patua One', cursive;
+}

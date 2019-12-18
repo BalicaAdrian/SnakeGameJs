@@ -1,0 +1,53 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-color: aqua;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#HighScore{
+    position: absolute;
+    height: 65%;
+    font-size: 20px;
+}
+
+canvas{
+
+    border: 1px solid black;
+
+}
+#song{
+    position: absolute;
+    left: 80%;
+    top:10%;
+}
+#StopTime{
+    position: absolute;
+    left: 90%;
+    top:4%;
+
+
+}
+#video{
+    position: absolute;
+    left: 70%;
+    top:20%;
+
+
+}
+#Time{
+    position: absolute;
+    height: 100%;
+    right: 5%;
+    font-size: 20px;
+}
+#Score{
+    position: absolute;
+    height: 90%;
+    font-size: 90px;
+
+}
